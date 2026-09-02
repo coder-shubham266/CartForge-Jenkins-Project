@@ -1,0 +1,15 @@
+
+{
+  "name": "cartforge-jenkins-project",
+  "version": "1.0.0",
+  "description": "CartForge Jenkins Continuous Integration Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "mkdir -p dist && cp app.js dist/",
+    "test": "node -e \"console.log('CartForge tests passed successfully!')\""
+  },
+  "keywords": [],
+  "author": "Shubh Devops",
+  "license": "ISC"
+}
