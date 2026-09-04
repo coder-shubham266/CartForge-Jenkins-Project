@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'cartforge-agent'
-    }
+    agent any
 
     stages {
 
